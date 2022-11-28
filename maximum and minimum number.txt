@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,k,l;
+    cout<<"enter array size"<<" ";
+    cin>>n;
+    int i[n];
+    for(int j=0;j<n;j++)
+     cin>>i[j];
+    
+      k=i[0];
+      for(int j=0;j<n;j++){
+      if(k>i[j]);
+      
+      else
+      k=i[j];
+            }
+            
+       l=i[0];
+      for(int j=0;j<n;j++)
+      if(l<i[j]);
+      
+      else
+      l=i[j];
+      
+      
+      
+      
+      
+      cout<<endl;
+      cout<<"maximum number of array is "<<k<<"\n";
+      cout<<"minimum number of array is "<<l;
+      
+    return 0;
+}
